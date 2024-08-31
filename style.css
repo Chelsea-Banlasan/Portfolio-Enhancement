@@ -1,0 +1,126 @@
+body{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(images/1000_F_591197738_570kD5exn78wK676dhKra3PwksgsM1eG.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.733);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.navBarHeader {
+    position: absolute;
+    left: 15px;
+}
+
+.navBar ul {
+    gap: 100px;
+    display: flex;
+}
+
+.navBar li { 
+    list-style: none;
+}
+
+.navBar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    text-decoration: underline 2px white;
+}
+
+.homePage {
+    display: flex;
+    background-color: rgba(145, 64, 138, 0.514);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #ded6e0;
+    background-image: url("https://media.tenor.com/-169fSymeTgAAAAi/anime-girl.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style:groove;
+
+}
+
+.homeContainer {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    height: 500px;
+    width: 750px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.description {
+    font-size: 25px;
+}
+
+.aboutPage {
+    display: flex;
+    background-color: rgba(145, 64, 138, 0.514);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ded6e0;
+    height: 100vh;
+    border-style:groove;
+    
+}
+
+.aboutTitle {
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    width: 750px;
+}
+
+.aboutMyself {
+    font-size: 25px;
+    display: flex;
+    height: 500px;
+    width: 750px;
+}
+
+.contactPage {
+    font-size: 25px;
+    background-color: rgba(145, 64, 138, 0.514);
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ded6e0;
+    height: 100vh;
+    border-style:groove;
+}
+
+.contactTitle {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 100px;
+}
